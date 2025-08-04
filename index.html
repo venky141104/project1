@@ -1,43 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Application Form</title>
-</head>
-<body>
-
-    <h1>Application Form</h1>
-    
-    <form>
-      <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname"><br><br>
-
-      <label for="email">Gmail Address:</label>
-      <input type="email" id="email" name="email"><br><br>
-
-      <label>Gender:</label>
-      <input type="radio" id="male" name="gender" value="male">
-      <label for="male">Male</label>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label><br><br>
-
-      <label>Choose Your Courses:</label><br>
-      <input type="checkbox" id="ml" name="course" value="ML">
-      <label for="ml">Machine Learning</label><br>
-
-      <input type="checkbox" id="ai" name="course" value="AI">
-      <label for="ai">Artificial Intelligence</label><br>
-
-      <input type="checkbox" id="ds" name="course" value="DS">
-      <label for="ds">Data Science</label><br><br>
-
-      <label for="document">Upload Your Document:</label>
-      <input type="file" id="document" name="document"><br><br>
-
-      <label for="password">Set a Password:</label>
-      <input type="password" id="password" name="password"><br><br>
-
-      <input type="submit" value="Submit Application">
-    </form>
-  
-</body>
+<html>
+    <head>
+    <body style="background-color: rgb(70, 81, 70);">
+        <form action="#" method="post" enctype="multipart/form-data"></form>
+            
+            <h1 style="color:black;">Application Form</h1>
+        <label >Full name:</label>
+        <input type="text" placeholder="Enter your name"><br>
+        <label for="Email">Gmail Address:</label>
+        <input type="Gmail" id="Email" name="Email" placeholder="Enter your email"><br>
+        <label>Phone No:</label>
+        <input type="number"placeholder="Enter your number"><br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender" > Female<br> <br>  
+        <label for="ncourses">Courses</label><br>
+        <input type="checkbox" >CSE(CS)<br>
+        <input type="checkbox" >AIML<br>
+        <input type="checkbox">Data Science<br> <br>
+        <label>Upload Your Document:<label>
+        <input type="file"> <br><br>
+        <label>Set a Password: <label>
+        <input type="password"placeholder="Enter password" ><br><br>
+        <input type="button" value="Submit Application">
+        </Form>
+    </body>
+    </head>
 </html>
